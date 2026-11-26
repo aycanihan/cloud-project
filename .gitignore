@@ -1,2 +1,24 @@
+# Python
 __pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+build/
+dist/
+*.egg-info/
+
+# Generated data
 sunucu_verisi.csv
+
+# Secrets and environment files
+.env
+.env.*
+
+# IDE and OS
+.vscode/
+.idea/
+.claude/
+.DS_Store
+Thumbs.db
